@@ -1,12 +1,12 @@
 const nav = document.querySelector("nav");
 
 function navScrool() {
-    if(scrollY >= 700) {
-        nav.style.background = "#2a2a2a"
+    if(scrollY >= 40) {
+        nav.classList.add("style-background-nav");
     }
 
     else {
-        nav.style.background = "#000"
+        nav.classList.remove("style-background-nav")
     }
 }
 
