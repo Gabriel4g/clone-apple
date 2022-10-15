@@ -64,6 +64,7 @@ nav #search-nav {
     align-items: center;
     gap: 1rem;
     transition: all .2s ease;
+    display: none;
 }
 
 nav #search-nav input {
